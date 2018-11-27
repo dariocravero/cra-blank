@@ -9,6 +9,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:update": "react-scripts start & ./update.sh",
+    "start:update:delayed": "react-scripts start & ./update-delayed.sh",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
